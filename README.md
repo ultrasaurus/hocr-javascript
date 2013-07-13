@@ -8,3 +8,16 @@ brew install tesseract
 tesseract letter.jpeg letter hocr
 
 ```
+
+
+## testing with Jasmine
+
+```
+gem install jasmine
+rake jasmine
+```
+
+see tests run at: http://localhost:8888
+
+
+
