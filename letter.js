@@ -1,3 +1,7 @@
+
 $(document).ready(function() {
-    console.log("ready!")
-})
+    $(".ocrx_word").attr('style', function() {
+        return Manuscript.bboxToStyle(this.title);
+        });
+
+});
